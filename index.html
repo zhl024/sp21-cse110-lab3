@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="favicon.png">
+</head>
+<body>
+    <h1>Journal Entries</h1>
+    <nav class = "menu">
+        <ul>
+            <li><a class="nav-link" href="#Journal1">Journal 1</a></li>
+            <li><a class="nav-link" href="#Journal2">Journal 2</a></li>
+            <li><a class="nav-link" href="#Journal3">Journal 3</a></li>
+            <li><a class="nav-link" href="#Form">Form</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section id="Journal1">
+        <header><h2>Journal for 04/08/21</h2></header>
+        <main>
+            <p><i>It is a quite <b>interesting</b> and <b>inspiring</b> day!</i></p>
+            <details>
+                <summary>It goes like this</summary>
+                <figure>
+                    <audio
+                        controls
+                        src = "laugh.wav">
+                    </audio>
+                </figure>
+            </details>
+            <p> But why was I happy on that day?<br>
+                I do not know.<br>
+                Why I don't know?<br>
+                That is a question.<br>
+                Maybe I am just making all things up since I am doing a CSE110 lab.<br>
+                Or maybe I am a person from the future.<br>
+                Is this like a poem?<br>
+                <strong>NO, certainly not</strong><br>
+                I even do not know what I am typing, guess that is enough.<br>
+                <strong>BYE!</strong>
+            </p>
+            <div>&lt;bye&gt;</div>
+            <img src="BYE.png", width="300">
+        </main>
+    </section>
+    <hr>
+    <section id="Journal2">
+        <header><h2>Journal for 04/09/21</h2></header>
+        <main>
+            So let's insert a video for Friday!<br>
+            <video controls width="400">
+                <source src="cat_video.mp4" 
+                        type="video/mp4">
+            </video>
+            <h3>Wala!</h3>
+            <p>On Friday, I wrote an <span>essay</span> for the writing class. And as you know, to write
+                an essay, you first need your <em>brain</em>. Then you need your <em>hands</em>. If you want,
+                you certainly can use your <em>feet</em> to type words, but I guess it wil not be a 
+                easy thing to do. Then, wala, the essay comes out.
+            </p>
+            <h3>Take Away</h3>
+            <p>To write an essay, you need:
+                <ol>
+                    <li>Brain</li>
+                    <li>Hands or Feet if you want</li>
+                </ol>
+            </p>
+        </main>
+    </section>
+    <hr>
+    <section id="Journal3">
+        <header><h2>Journal for 04/10/21</h2></header>
+        <main>
+            Saturday is supposed to be this:<br>
+            <br>
+            <img src="image_Sa.jpg" width="300"><br>
+            <br>
+            However, it truly turns into this:<br>
+            <br>
+            <img src="sad.jpg" width="300"><br>
+            <br>
+            If everything goes well, hope I can turn into this:<br>
+            <br>
+            <img src="happy.jpg" width="300">
+
+
+        </main>
+    </section>
+    <hr>
+    <section id="Form">
+        <h2>Form</h2>
+        <form action="" method="get" class="form-example">
+            <fieldset>
+                <legend>Set up the Journal Title</legend>
+                <div class="form-example">
+                    <label for="title">Enter the title:</label>
+                    <input type="text" name="title" id="title" required>
+                </div>
+                <br>
+                <div class="form-example">
+                    <label for="date">Choose the date:</label>
+                    <input type="date" id="date" 
+                            value="2021-04-10"
+                            min="2021-01-01" max="2021-12-31" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Interesting Add-ons</legend>
+                <p>Do you want to add interesting stuff?</p>
+
+                <div>
+                    <input type="radio" id="yes" name="choice" value="yes">
+                    <label for="yes">Yes</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="no" name="choice" value="no">
+                    <label for="no">No</label>
+                </div>
+
+                <p>Choose what you want to include:</p>
+                <div>
+                    <input type="checkbox" id="memes" name="memes">
+                    <label for="memes">memes</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="video" name="videos">
+                    <label for="video">video</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="audio" name="audio">
+                    <label for="audio">audio</label>
+                </div>
+                <br>
+                <label for="meme-select">Choose a meme:</label>
+                <select name="memes" id="memes">
+                    <option value="">--Please choose an option--</option>
+                    <option value="byecat">Bye Cat</option>
+                    <option value="happycat">Happy Cat</option>
+                    <option value="happysa">Happy Saturday</option>
+                    <option value="sadcat">Sad Cat</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="video">Choose a video:</label>
+                <input list="videoes" id="video" name="video" />
+
+                <datalist id="videoes">
+                    <option value="cat in the jar">
+                </datalist>
+                <br>
+                <br>
+                <label for="audio-select">Choose an audio:</label>
+                <select name="audio" id="audio">
+                    <option value="">--Please choose an option--</option>
+                    <option value="malelaugh">Male Laugh</option>
+                </select>
+                <br>
+                <br>
+                <button type="buttion">Upload your own</button>
+            </fieldset>
+            <fieldset>
+                <legend>Main Body Text</legend>
+                <label for="story">Write in the story:</label>
+                <textarea id="story" name="story"
+                            rows="20" cols="300">
+                </textarea>
+                
+
+            </fieldset>
+            
+        </form>
+    </section>
+</body>
+<footer>
+    <p>2021@Zhongqian</p>
+</footer>
+</html>
