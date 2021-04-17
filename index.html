@@ -5,8 +5,28 @@
     <meta charset="UTF-8">
     <title>Lab2</title>
     <link rel="icon" type="image/png" href="source/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
+<style>
+*{
+    background-color: linen;
+    margin-left: 1px;
+}
+h1{
+    color: maroon;
+    text-align: center;
+    font-family:"Zen Dots";
+    position:static;
+}
+h2{
+    color: maroon;
+    text-align: center;
+    text-decoration: underline overline;
+    font-family: "Zen Dots"
 
+}
+</style>
 <body>
     <h1>Journal Entries</h1>
     <nav class="menu">
@@ -23,15 +43,15 @@
             <header>
                 <h2>Journal for 04/08/21</h2>
             </header>
-            <p><i>It is a quite <b>interesting</b> and <b>inspiring</b> day!</i></p>
-            <details>
+            <p class="mood"><i>It is a quite <b>interesting</b> and <b>inspiring</b> day!</i></p>
+            <details class="audio">
                 <summary>It goes like this</summary>
                 <figure>
                     <audio controls src="source/laugh.wav">
                     </audio>
                 </figure>
             </details>
-            <p> But why was I happy on that day?<br>
+            <p class="content1"> But why was I happy on that day?<br>
                 I do not know.<br>
                 Why I don't know?<br>
                 That is a question.<br>
@@ -42,8 +62,8 @@
                 I even do not know what I am typing, guess that is enough.<br>
                 <strong>BYE!</strong>
             </p>
-            <div>&lt;bye&gt;</div>
-            <img src="source/BYE.png" width="300" alt="Bye by a cat">
+            
+            <img src="source/BYE.png" width="300" alt="Bye by a cat" id="sadcat">
         </section>
     </main>
     <hr>
