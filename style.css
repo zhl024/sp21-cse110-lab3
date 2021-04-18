@@ -112,7 +112,7 @@ form.mainbody{
     grid-column: col1-start / span col1-end;
 }
 form.endnote{
-    grid-colum: col1-end /span col2-end;
+    grid-column: col1-end /span col2-end;
 }
 form{
     display:grid;
