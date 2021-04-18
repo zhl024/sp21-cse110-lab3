@@ -1,0 +1,33 @@
+
+#Journal1{ 
+    color:#808080; 
+    font-size:12pt; 
+}
+nav.menu{   
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 5mm;
+    height:6em;
+    
+}
+nav.menu li{
+    margin:auto;
+    font-size:11pt;
+}
+a[href^="#"]{
+    color:hsl(30, 100%, 50%);
+}
+.mood,.content1,.audio{
+    text-align:center;
+}
+
+
+.audio:hover{
+    color:rgb(0,0,255);
+}
+#sadcat{
+    display:inline;
+    position: relative;
+    left:39vw;
+}
