@@ -5,28 +5,31 @@
     <meta charset="UTF-8">
     <title>Lab2</title>
     <link rel="icon" type="image/png" href="source/favicon.png">
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <style>
-*{
-    background-color: linen;
-    margin-left: 1px;
-}
-h1{
-    color: maroon;
-    text-align: center;
-    font-family:"Zen Dots";
-    position:static;
-}
-h2{
-    color: maroon;
-    text-align: center;
-    text-decoration: underline overline;
-    font-family: "Zen Dots"
+    * {
+        background-color: linen;
+        margin-left: 1px;
+    }
 
-}
+    h1 {
+        color: maroon;
+        text-align: center;
+        font-family: "Zen Dots";
+        position: static;
+    }
+
+    h2 {
+        color: maroon;
+        text-align: center;
+        text-decoration: underline overline;
+        font-family: "Zen Dots"
+
+    }
 </style>
+
 <body>
     <h1>Journal Entries</h1>
     <nav class="menu">
@@ -73,15 +76,17 @@ h2{
             <h2>Journal for 04/09/21</h2>
         </header>
         So let's insert a video for Friday!<br>
-        <video controls width="400" class=video>
+        <video controls width="400">
             <source src="source/cat_video.mp4" type="video/mp4">
         </video>
         <h3>Wala!</h3>
-        <p>On Friday, I wrote an <span>essay</span> for the writing class. And as you know, to write
-            an essay, you first need your <em>brain</em>. Then you need your <em>hands</em>. If you want,
-            you certainly can use your <em>feet</em> to type words, but I guess it wil not be a
-            easy thing to do. Then, wala, the essay comes out.
-        </p>
+        <div class="content2">
+            <p>On Friday, I wrote an <span>essay</span> for the writing class. And as you know, to write
+                an essay, you first need your <em>brain</em>. Then you need your <em>hands</em>. If you want,
+                you certainly can use your <em>feet</em> to type words, but I guess it wil not be a
+                easy thing to do. Then, wala, the essay comes out.
+            </p>
+        </div>
         <h3>Take Away</h3>
         To write an essay, you need:
         <ol>
@@ -95,17 +100,16 @@ h2{
         <header>
             <h2>Journal for 04/10/21</h2>
         </header>
-        Saturday is supposed to be this:<br>
-        <br>
-        <img src="source/image_Sa.jpg" width="300" alt = "happy Saturday"><br>
-        <br>
-        However, it truly turns into this:<br>
-        <br>
-        <img src="source/sad.jpg" width="300" alt="a sad cat"><br>
-        <br>
-        If everything goes well, hope I can turn into this:<br>
-        <br>
-        <img src="source/happy.jpg" width="300" alt="a happy cat">
+        <div class="container">
+            <p>Saturday is supposed to be this:</p>
+            <img src="source/image_Sa.jpg" alt="happy Saturday">
+
+            <p>However, it truly turns into this:</p>
+
+            <img src="source/sad.jpg" alt="a sad cat">
+            <p>If everything goes well, hope I can turn into this:</p>
+            <img src="source/happy.jpg" alt="a happy cat">
+        </div>
 
 
     </section>
@@ -193,7 +197,7 @@ h2{
         </form>
     </section>
     <footer>
-    <p>2021@Zhongqian</p>
+        <p>2021@Zhongqian</p>
     </footer>
 </body>
 

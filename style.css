@@ -49,7 +49,26 @@ a[href^="#"]:active{
     margin-right:auto;
 }
 
-
+video{
+    display:inline-block;
+    padding-top:1vh;
+    width:40vw;
+}
+.content2 { 
+    height: 200px;
+    position: relative;
+    border: 3px solid green; 
+    margin: 20px 20vw;
+  }
+  
+.content2 p {
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 @media(width: 360px){
     h3{
         color:red;
@@ -65,4 +84,16 @@ a[href^="#"]:active{
         border:2px solid blue;
     }
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-self:auto;
+    flex-wrap: nowrap;
+}
 
+.container img{
+    width: 20vw;
+    padding-left:5px;
+    padding-right:5px;
+}
