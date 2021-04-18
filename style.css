@@ -97,3 +97,26 @@ video{
     padding-left:5px;
     padding-right:5px;
 }
+
+
+
+form.side{
+    grid-column-start:col1-start;
+    grid-column-end: span col1-end;
+}
+form.header{
+    grid-column-start:col1-end;
+    grid-column-end: span col2-end;
+}
+form.mainbody{
+    grid-column: col1-start / span col1-end;
+}
+form.endnote{
+    grid-column: col1-end /span col2-end;
+}
+form{
+    display:grid;
+    grid-template-columns: [col1-start] 45vw [col1-end] 50vw [col2-end];
+    grid-template-rows: auto;
+    justify-self:stretch;
+}

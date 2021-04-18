@@ -117,7 +117,7 @@
     <section id="Form">
         <h2>Form</h2>
         <form method="get" class="form-example">
-            <fieldset>
+            <fieldset class="side">
                 <legend>Set up the Journal Title</legend>
                 <div class="form-example">
                     <label for="title">Enter the title:</label>
@@ -129,7 +129,7 @@
                     <input type="date" id="date" value="2021-04-10" min="2021-01-01" max="2021-12-31" required>
                 </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="header">
                 <legend>Interesting Add-ons</legend>
                 <p>Do you want to add interesting stuff?</p>
 
@@ -185,13 +185,17 @@
                 <br>
                 <button type="button">Upload your own</button>
             </fieldset>
-            <fieldset>
+            <fieldset class="mainbody">
                 <legend>Main Body Text</legend>
                 <label for="story">Write in the story:</label>
-                <textarea id="story" name="story" rows="20" cols="300">
+                <textarea id="story" name="story" rows="20" style="width:100%">
                 </textarea>
-
-
+            </fieldset>
+            <fieldset class="endnote">
+                <legend>Footer</legend>
+                <label for="story">Write in your footer:</label>
+                <textarea id="footer" name="footer" rows="20" style="width:100%">
+                </textarea>
             </fieldset>
 
         </form>
