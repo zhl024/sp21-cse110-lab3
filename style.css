@@ -38,8 +38,6 @@ a[href^="#"]:active{
 #word + #happy{
     color:red;
 }
-
-
 .audio:hover{
     color:rgb(0,0,255);
 }
@@ -59,7 +57,7 @@ video{
     position: relative;
     border: 3px solid green; 
     margin: 20px 20vw;
-  }
+}
   
 .content2 p {
     margin:0;
@@ -68,7 +66,11 @@ video{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+}
+video ~ h3{
+    color:red;
+}
+
 @media(width: 360px){
     h3{
         color:red;
@@ -97,7 +99,6 @@ video{
     padding-left:5px;
     padding-right:5px;
 }
-
 
 
 form.side{
